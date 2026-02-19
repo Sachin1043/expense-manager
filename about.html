@@ -1,11 +1,194 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>About</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>About Expense Manager</title>
+
+<style>
+    body {
+        margin: 0;
+        padding: 0;
+        background: #0F1722;
+        color: #FFFFFF;
+        font-family: 'Segoe UI', sans-serif;
+        line-height: 1.6;
+    }
+
+    .container {
+        max-width: 900px;
+        margin: auto;
+        padding: 40px 20px;
+    }
+
+    h1 {
+        text-align: center;
+        color: #00E676;
+        margin-bottom: 10px;
+    }
+
+    h2 {
+        color: #00E676;
+        margin-top: 40px;
+    }
+
+    p {
+        color: #CCCCCC;
+    }
+
+    .card {
+        background: #1E293B;
+        padding: 20px;
+        border-radius: 12px;
+        margin-top: 20px;
+        box-shadow: 0 4px 10px rgba(0,0,0,0.4);
+    }
+
+    .highlight {
+        color: #00E676;
+        font-weight: bold;
+    }
+
+    ul {
+        padding-left: 20px;
+    }
+
+    li {
+        margin-bottom: 10px;
+    }
+
+    .footer {
+        text-align: center;
+        margin-top: 60px;
+        color: #AAAAAA;
+        font-size: 14px;
+    }
+
+    .badge {
+        display: inline-block;
+        background: #00E676;
+        color: #0F1722;
+        padding: 4px 10px;
+        border-radius: 6px;
+        font-size: 12px;
+        margin-left: 8px;
+    }
+
+    @media(max-width: 600px){
+        .container{
+            padding: 20px 15px;
+        }
+    }
+</style>
+
 </head>
-<body style="background:#0F1722;color:white;padding:40px;font-family:Arial;">
-<h1>About Expense Manager</h1>
-<p>This app helps users track daily expenses, manage accounts and monitor savings efficiently.</p>
-<p>Designed and developed by Sachin.</p>
+
+<body>
+
+<div class="container">
+
+    <h1>Expense Manager</h1>
+    <p style="text-align:center;">Smart Personal Finance Tracking Application</p>
+
+    <div class="card">
+        <h2>📌 Why Expense Manager?</h2>
+        <p>
+            Managing personal finances can be overwhelming. Expense Manager helps users 
+            <span class="highlight">track income, monitor expenses, analyze spending patterns, 
+            and manage multiple accounts</span> efficiently.
+        </p>
+        <p>
+            Our goal is to provide a clean, simple, and powerful financial tracking system 
+            that works smoothly for daily expense management.
+        </p>
+    </div>
+
+    <div class="card">
+        <h2>🚀 Key Features</h2>
+        <ul>
+            <li>Track income and expenses in real-time</li>
+            <li>Manage multiple bank accounts and cash wallets</li>
+            <li>View monthly and yearly analytics</li>
+            <li>Category-based expense tracking</li>
+            <li>Interactive financial dashboard</li>
+            <li>Secure and user-friendly interface</li>
+        </ul>
+    </div>
+
+    <div class="card">
+        <h2>📱 Application Tabs Overview</h2>
+
+        <h3>🏠 Dashboard <span class="badge">Overview</span></h3>
+        <p>
+            The Dashboard provides a summary of your financial status including:
+        </p>
+        <ul>
+            <li>Total Income</li>
+            <li>Total Expenses</li>
+            <li>Account Balances</li>
+            <li>Recent Transactions</li>
+        </ul>
+
+        <h3>💸 Expenses <span class="badge">History</span></h3>
+        <p>
+            The Expenses tab displays detailed transaction history. Users can:
+        </p>
+        <ul>
+            <li>Add new expenses</li>
+            <li>Delete transactions</li>
+            <li>Filter by date</li>
+            <li>View daily and monthly totals</li>
+        </ul>
+
+        <h3>📊 Analytics <span class="badge">Insights</span></h3>
+        <p>
+            Analytics provides graphical representation of spending behavior:
+        </p>
+        <ul>
+            <li>Category-wise expense distribution</li>
+            <li>Monthly comparisons</li>
+            <li>Yearly financial trends</li>
+            <li>Pie chart visualization</li>
+        </ul>
+
+        <h3>⚙ Settings <span class="badge">Control</span></h3>
+        <p>
+            The Settings tab allows users to:
+        </p>
+        <ul>
+            <li>Manage notifications</li>
+            <li>Access About and Legal information</li>
+            <li>Rate the app</li>
+            <li>Clear stored data</li>
+        </ul>
+
+    </div>
+
+    <div class="card">
+        <h2>🛠 How to Use</h2>
+        <ul>
+            <li>Step 1: Add your income using the income section.</li>
+            <li>Step 2: Add expenses under appropriate categories.</li>
+            <li>Step 3: Monitor your dashboard for balance updates.</li>
+            <li>Step 4: Use analytics to understand spending patterns.</li>
+            <li>Step 5: Maintain financial discipline by reviewing monthly reports.</li>
+        </ul>
+    </div>
+
+    <div class="card">
+        <h2>🎯 Our Mission</h2>
+        <p>
+            We aim to simplify financial tracking and help individuals 
+            make smarter money decisions through clear insights and easy management.
+        </p>
+    </div>
+
+    <div class="footer">
+        Developed by <strong>Sachin</strong><br>
+        Version 1.0.0
+    </div>
+
+</div>
+
 </body>
 </html>
