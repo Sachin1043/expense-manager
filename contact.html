@@ -1,11 +1,131 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>Contact</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Contact Us - Expense Manager</title>
+
+<style>
+    body {
+        margin: 0;
+        padding: 0;
+        background: #0F1722;
+        color: #FFFFFF;
+        font-family: 'Segoe UI', sans-serif;
+        line-height: 1.6;
+    }
+
+    .container {
+        max-width: 800px;
+        margin: auto;
+        padding: 40px 20px;
+    }
+
+    h1 {
+        text-align: center;
+        color: #00E676;
+        margin-bottom: 10px;
+    }
+
+    h2 {
+        color: #00E676;
+        margin-top: 30px;
+    }
+
+    p {
+        color: #CCCCCC;
+    }
+
+    .card {
+        background: #1E293B;
+        padding: 25px;
+        border-radius: 12px;
+        margin-top: 20px;
+        box-shadow: 0 4px 10px rgba(0,0,0,0.4);
+    }
+
+    .email-box {
+        background: #0F1722;
+        padding: 12px;
+        border-radius: 8px;
+        margin-top: 10px;
+        font-weight: bold;
+        color: #00E676;
+        word-break: break-word;
+    }
+
+    .social-links a {
+        display: inline-block;
+        margin-right: 15px;
+        margin-top: 10px;
+        color: #00E676;
+        text-decoration: none;
+        font-weight: bold;
+    }
+
+    .social-links a:hover {
+        text-decoration: underline;
+    }
+
+    .footer {
+        text-align: center;
+        margin-top: 60px;
+        color: #AAAAAA;
+        font-size: 14px;
+    }
+
+    @media(max-width: 600px){
+        .container{
+            padding: 20px 15px;
+        }
+    }
+</style>
+
 </head>
-<body style="background:#0F1722;color:white;padding:40px;font-family:Arial;">
-<h1>Contact Us</h1>
-<p>Email: sachin@email.com</p>
-<p>We welcome your feedback.</p>
+
+<body>
+
+<div class="container">
+
+    <h1>Contact Us</h1>
+    <p style="text-align:center;">We’re here to help and support you.</p>
+
+    <div class="card">
+        <h2>📧 Email Support</h2>
+        <p>
+            For feedback, bug reports, feature requests, or any issues related to the app,
+            please contact us via email.
+        </p>
+
+        <div class="email-box">
+            sachu88880@email.com
+        </div>
+    </div>
+
+    <div class="card">
+        <h2>💬 Feedback & Suggestions</h2>
+        <p>
+            Your feedback helps us improve Expense Manager.
+            We welcome suggestions to enhance user experience,
+            performance, and features.
+        </p>
+    </div>
+
+    <div class="card">
+        <h2>🌐 Connect With Us</h2>
+        <div class="social-links">
+            <a href="https://github.com/sachin1043" target="_blank">GitHub</a>
+            <a href="#" target="_blank">LinkedIn</a>
+            <a href="#" target="_blank">Twitter</a>
+        </div>
+    </div>
+
+    <div class="footer">
+        Developed by <strong>Sachin</strong><br>
+        Expense Manager - Version 1.0.0
+    </div>
+
+</div>
+
 </body>
 </html>
